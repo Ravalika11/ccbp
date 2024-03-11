@@ -1,0 +1,32 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ccbp-title {
+  text-align: center;
+  color: #2b237c;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.heading {
+  text-align: center;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.chrono-container {
+  width: 96%;
+  height: 600px;
+}
+@media (min-width: 768px) {
+  .chrono-container {
+    width: 98%;
+    min-height: 800px;
+  }
+}
